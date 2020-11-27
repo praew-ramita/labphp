@@ -28,7 +28,7 @@
 								{
 								    die('Failed to connect to MySQL: '.mysqli_connect_error());
 								}
-								$res = mysqli_query($conn, 'SELECT * FROM labitf');
+								$res = mysqli_query($conn, 'SELECT * FROM labitff');
 							?>
 							<table class="table thead-inverse">
 								<thead>
