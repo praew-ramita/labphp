@@ -1,6 +1,6 @@
 <?php
 require('connect1.php');
-    if(isset($_POST['ID'])){
+    if(isset($_POST['Id'])){
         $num = $_POST['Name'];
         $numa = $_POST['Height'];
         $numb = $_POST['Weight'];
