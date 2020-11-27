@@ -1,6 +1,6 @@
 <?php
 	$conn = mysqli_connect('ramita63070147.mysql.database.azure.com', 'ramita63070147@ramita63070147', 'Rt0877003141', 'labitf');
-	$sql = 'DELETE FROM labitf WHERE Id = '.$_GET['Id'].'';
+	$sql = 'DELETE FROM labitff WHERE Id = '.$_GET['Id'].'';
 ?>
 <!DOCTYPE html>
 <html>
