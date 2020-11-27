@@ -6,7 +6,7 @@ require('connect1.php');
         $numb = $_POST['Weight'];
         $numc = $numb / ($numa**2);
 
-        $sql = "INSERT INTO labitf (Name, Height, Weight, BMI) value ('$num','$numa', '$numb', '$numc')";
+        $sql = "INSERT INTO labitff (Name, Height, Weight, BMI) value ('$num','$numa', '$numb', '$numc')";
 
         if(mysqli_query($conn, $sql)){
             echo "New data insert successfully";
