@@ -28,15 +28,15 @@
 								{
 								    die('Failed to connect to MySQL: '.mysqli_connect_error());
 								}
-								$res = mysqli_query($conn, 'SELECT * FROM labitf');
+								$res = mysqli_query($conn, 'SELECT * FROM labitff');
 							?>
 							<table class="table thead-inverse">
 								<thead>
 									<tr>
-										<th width="150px">Product</th>
-										<th>Price</th>
-										<th>Amount</th>
-										<th>Total</th>
+										<th width="150px">Name</th>
+										<th>Weight</th>
+										<th>Height</th>
+										<th>BMI</th>
 									</tr>
 								</thead>
 								<tbody>
